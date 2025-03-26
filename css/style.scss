@@ -86,7 +86,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/hero-bg.webp);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -485,7 +485,7 @@ a:focus {
 // animal section
 
 .animal_section {
-  background-image: url(../images/animal-bg.jpg);
+  background-image: url(../images/animal-bg.webp);
   background-size: cover;
   color: $white;
 
@@ -776,7 +776,7 @@ a:focus {
 // client section
 
 .client_section {
-  background-image: url(../images/client-bg.jpg);
+  background-image: url(../images/client-bg.webp);
   background-size: cover;
 
   #carouselExampleControls {
