@@ -94,6 +94,7 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+
 }
 
 .header_section .nav_container {
@@ -155,6 +156,7 @@ a:focus {
 
 .navbar-brand img {
   width: 65px;
+  height: auto;
 }
 
 .custom_nav-container {
@@ -384,7 +386,7 @@ a:focus {
   display: inline-block;
   padding: 10px 0px;
   background-color: #e7d619;
-  color: #ffffff;
+  color: #000000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #e7d619;
@@ -398,6 +400,7 @@ a:focus {
 
 .slider_section .img-box img {
   max-width: 100%;
+  height: auto;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -444,6 +447,7 @@ a:focus {
   text-align: center;
   width: 80%;
   margin: auto;
+  height: auto;
 }
 
 .about_section .detail-box .heading_container {
@@ -479,7 +483,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #e7d619;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -530,6 +534,7 @@ a:focus {
 
 .animal_section .animal_container .box .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .animal_section .animal_container .box .detail-box {
@@ -623,6 +628,7 @@ a:focus {
 
 .pet_section .img-box img {
   width: 100%;
+  height: auto;
   position: relative;
   z-index: 2;
 }
@@ -658,7 +664,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #e7d619;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -691,10 +697,12 @@ a:focus {
 
 .us_section .us_container .box img {
   max-width: 100%;
+  height: auto;
 }
 
 .us_section .us_container .box .img1-box {
   height: 300px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -708,6 +716,7 @@ a:focus {
 
 .us_section .us_container .box .img2-box {
   width: 175px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -778,7 +787,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #e7d619;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -828,6 +837,7 @@ a:focus {
 
 .food_section .food_container .box .img-box img {
   max-width: 100%;
+  height: auto;
 }
 
 .food_section .food_container .box .detail-box {
@@ -893,6 +903,7 @@ a:focus {
 
 .client_section .box .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .client_section .box .detail-box h4 {
@@ -902,6 +913,7 @@ a:focus {
 
 .client_section .box .detail-box img {
   width: 25px;
+  height: auto;
 }
 
 .client_section .carousel_btn-box {
@@ -986,12 +998,12 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: #e7d619;
-  color: #ffffff;
+  color: #000000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #e7d619;
   border-radius: 0;
-  color: #fff;
+  color: #000000;
   margin-top: 35px;
 }
 
@@ -1012,7 +1024,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0a2050;
+  background-color: #000000;
   color: #ffffff;
   padding: 40px 0 75px 0;
   font-family: "Open Sans",
@@ -1113,15 +1125,19 @@ a:focus {
 }
 
 .footer_section p {
-  color: #ffffff;
+
+  color: #000000;
   margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
   text-align: center;
+
+
+
 }
 
 .footer_section a {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* end footer section*/
